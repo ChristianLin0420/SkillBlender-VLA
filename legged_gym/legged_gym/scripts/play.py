@@ -520,7 +520,7 @@ def play(args):
         filename_png = f'{model_name}_{i_rollout}.png'
         fig.savefig(os.path.join(frame_path, filename_png))
         video.release()
-        import pdb; pdb.set_trace()
+        # import pdb; pdb.set_trace()
         del logger
 
 if __name__ == '__main__':
